@@ -1,0 +1,90 @@
+/* BASE */
+body {
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-size: 14px;
+    line-height: 34px;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+header,
+footer,
+section {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+header,
+footer {
+    background-color: grey;
+    height: 100px;
+}
+
+/* Section */
+
+header h1 {
+    padding: 30px;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+ul {
+    text-align: auto;
+}
+
+.mainsection {
+    background-color:rgba(255, 217, 0, 0.503);
+    color:white;
+    opacity: 1;
+}
+
+button {
+    background-color: silver;
+    width: 20%;
+    height: 20px;
+    opacity: 1 !important;
+    margin-top: 30px;
+    color: rgb(0, 0, 255);
+}
+
+.question,
+.answers {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#submit,
+#results,
+#restart,
+.question,
+.answers {
+    display: none;
+}
+
+.instructions {
+    font-size: 20px;
+    font-style: bold;
+    font-weight: bold;
+}
+
+
+footer {
+    clear: both;
+    padding: 20px;
+    font-style: bold;
+}

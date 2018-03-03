@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LOTR Trivia Quiz </title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header id="pagetitle">
+        <div class="container">
+            <h1> The Lord Of The Rings: The Fellowship of the Quiz</h1>
+        </div>
+    </header>
+
+    <div id="maincontainer" class="container">
+        <section class="mainsection">
+            <h1 class="instructions"> Instructions</h1>
+            <p class="instructions">You have 30 seconds to answer 10 questions about the best movie series of all time! TLOTR</p>
+            <br>
+            <h2>
+                <button type="button" id="startbutton">Begin!</button>
+            </h2>
+            <div id="timerdisplay"></div>
+            <hr>
+
+            <!-- question 1 -->
+            <p class="question">1. Who said: "Nine companions. So be it. You shall be the fellowship of the ring."?</p>
+            <ul class="answers">
+                <input type="radio" name="q1" value="a" id="q1a">
+                <label for="q1a">Elrond</label>
+                <br/>
+                <input type="radio" name="q1" value="b" id="q1b">
+                <label for="q1b">Gandalf</label>
+                <br/>
+                <input type="radio" name="q1" value="c" id="q1c">
+                <label for="q1c">Aragorn</label>
+                <br/>
+                <input type="radio" name="q1" value="d" id="q1d">
+                <label for="q1d">Celeborn</label>
+                <br/>
+            </ul>
+            <hr>
+            <!-- question 2 -->
+            <p class="question">2. How many Great Rings were forged in the second age?</p>
+            <ul class="answers">
+                <input type="radio" name="q2" value="a" id="q2a">
+                <label for="q2a">1</label>
+                <br/>
+                <input type="radio" name="q2" value="b" id="q2b">
+                <label for="q2b">20</label>
+                <br/>
+                <input type="radio" name="q2" value="c" id="q2c">
+                <label for="q2c">19</label>
+                <br/>
+                <input type="radio" name="q2" value="d" id="q2d">
+                <label for="q2d">13</label>
+                <br/>
+            </ul>
+            <hr>
+            <!-- question 3 -->
+            <p class="question">3. What gift does Galadriel give Gimli when leaving Lothlorien?</p>
+            <ul class="answers">
+                <input type="radio" name="q3" value="a" id="q3a">
+                <label for="q3a">Elvish Rope</label>
+                <br/>
+                <input type="radio" name="q3" value="b" id="q3b">
+                <label for="q3b">A wooden pint</label>
+                <br/>
+                <input type="radio" name="q3" value="c" id="q3c">
+                <label for="q3c">3 strands of hair</label>
+                <br/>
+                <input type="radio" name="q3" value="d" id="q3d">
+                <label for="q3d">An Elvish Dagger</label>
+                <br/>
+            </ul>
+            <hr>
+            <!-- question 4 -->
+            <p class="question">4. What is the name of Aragorn's horse?</p>
+            <ul class="answers">
+                <input type="radio" name="q4" value="a" id="q4a">
+                <label for="q4a">Bill</label>
+                <br/>
+                <input type="radio" name="q4" value="b" id="q4b">
+                <label for="q4b">Brego</label>
+                <br/>
+                <input type="radio" name="q4" value="c" id="q4c">
+                <label for="q4c">Roheryn</label>
+                <br/>
+                <input type="radio" name="q4" value="d" id="q4d">
+                <label for="q4d">Asfaloth</label>
+                <br/>
+            </ul>
+            <hr>
+            <!-- question 5 -->
+            <p class="question">5. What is the name of the Balrog that attacks the fellowship in the Mines of Moria?</p>
+            <ul class="answers">
+                <input type="radio" name="q5" value="a" id="q5a">
+                <label for="q5a">Durin's Bane</label>
+                <br/>
+                <input type="radio" name="q5" value="b" id="q5b">
+                <label for="q5b">Gothmog</label>
+                <br/>
+                <input type="radio" name="q5" value="c" id="q5c">
+                <label for="q5c">Lungorthin</label>
+                <br/>
+                <input type="radio" name="q5" value="d" id="q5d">
+                <label for="q5d">Gorgoroth</label> <!-- LOL -->
+                <br/>
+            </ul>
+            <hr>
+
+            <!-- submit -->
+            <button type="button" id="submit">
+                Submit Answers
+            </button>
+            <br>
+
+            <div id="results">
+                View Answers
+            </div>
+            <br>
+
+            <!-- restart -->
+            <button type="button" id="restart">Restart</button>
+
+
+        </section>
+
+    </div>
+
+    <!-- Script -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
